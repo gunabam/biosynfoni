@@ -31,7 +31,7 @@ from biosynfoni.subkeys import (
     get_values,
 )
 from biosynfoni.inoutput import outfile_namer
-from biosynfoni.moldrawing import drawfp, pathway_colours
+# from biosynfoni.moldrawing import drawfp, pathway_colours
 
 
 def supplier(sdf_file: str) -> Chem.SDMolSupplier:
